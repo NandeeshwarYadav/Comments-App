@@ -1,0 +1,149 @@
+.amber {
+  background-color: #f59e0b;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.blue {
+  background-color: #0b69ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.orange {
+  background-color: #f97316;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.emerald {
+  background-color: #10b981;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.teal {
+  background-color: #14b8a6;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.red {
+  background-color: #b91c1c;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Write your CSS here */
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.comment {
+  padding-left: 40px;
+  font-size: 20px;
+}
+.unliked {
+  border-style: none;
+  margin-left: 20px;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  color: #cbd2d9;
+}
+.liked {
+  border-style: none;
+  margin-left: 20px;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  color: #0284c7;
+}
+.delete {
+  border-style: none;
+  background-color: transparent;
+}
+.like-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.delete-img {
+  width: 30px;
+  height: 30px;
+}
+.like-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.time-history {
+  color: #7e858e;
+  margin-left: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.list-item {
+  list-style-type: none;
+}

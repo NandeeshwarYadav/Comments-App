@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.main-page {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  align-items: center;
+}
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.heading {
+  font-size: 50px;
+}
+.img {
+  width: 400px;
+}
+.input {
+  height: 40px;
+  width: 300px;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.input-text {
+  margin-top: 20px;
+  width: 300px;
+  border-style: solid;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.button {
+  color: #ffffff;
+  background-color: #0284c7;
+  border-width: 0;
+  margin-top: 20px;
+  padding: 5px;
+  width: 130px;
+  border-radius: 5px;
+}
+.count-comments {
+  color: #ffffff;
+  background-color: #0284c7;
+  padding: 6px;
+  width: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
